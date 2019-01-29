@@ -32,3 +32,8 @@ btnToLeft.addEventListener("click", function(){
 });
 
 console.log(body);
+
+var _ = require('lodash');
+const arr = [1,2,3,4,5,6,7,8];
+
+console.log("answer", _.without(arr, 3));
